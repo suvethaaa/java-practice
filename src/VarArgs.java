@@ -12,7 +12,9 @@ public class VarArgs {
     }
 
     //passing multiple variable note:the varargs must be defined in last and when passing args that should follow the order
+    //why should it be at last ? because the know number parameters is not know when will be coming by te program
     //ex.int a, int b , int (dont forget the space ) ...(three dots) 'n' (can be anything)
+
 
     static void  show(int a , int b , String ...s){
         System.out.println(a + "  " + b + " " + Arrays.toString(s));
