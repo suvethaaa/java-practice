@@ -42,5 +42,9 @@ How to understand and approach a problem :
 
     Types of recurrence relation :
         linear(ex.fibonacci)
-        divide nad conquer(ex.binary search) search space gets reduced so fast and it is so fast and efficient
+        divide nad conquer(ex.binary search) search space gets reduced so fast, and it is so fast and efficient
           than linear
+
+  Note :  do not overthink while solving recursion only do it after solving it
+
+
