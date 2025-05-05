@@ -1,0 +1,46 @@
+What is Recursion ?
+    A function calls itself
+
+Why Recursion ?
+    It helps us to solve bigger complex problems in a simpler way
+
+    you can convert the recursion solutions into iteration and vice versa
+
+    space complexity : it is not constant because of the recursive calls
+
+How to understand and approach a problem :
+
+    identify if you can break down the problem into smaller problems
+
+    write the recurrence relation if needed
+
+    draw the recurrence tree
+
+    about the tree :
+
+        see the flow of functions how they are getting in stack
+
+        identify and focus on left tree calls and right tree calls
+
+        draw the tree and pointers again and again using pen and paper
+
+        use the debugger to see the flow
+
+    see how the values are returned at each step
+
+    see where the function call comes out of and in the end you will come out of main function
+
+    two key areas for strong foundation of recursion
+
+      first trees and stuffs
+      second variables and datatype which variable type to use in which place and to return which value
+
+    Variables occurs in : (refer binary search)
+        arguments
+        return type
+        body of the function
+
+    Types of recurrence relation :
+        linear(ex.fibonacci)
+        divide nad conquer(ex.binary search) search space gets reduced so fast and it is so fast and efficient
+          than linear
