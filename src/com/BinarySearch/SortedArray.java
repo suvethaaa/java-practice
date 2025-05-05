@@ -5,12 +5,11 @@ import java.util.Arrays;
 public class SortedArray {
     public static void main(String[] args) {
         int[][] matrix = {
-                {1, 2, 3, 4},
-                {5, 6, 7, 8},
-                {9, 10, 11, 12},
-                {13,14,15,16}
+                {1,3,5,7},
+                {10,11,16,20},
+                {23,30,34,50}
         };
-        int target = 36 ;
+        int target = 10 ;
         System.out.println(Arrays.toString(search(matrix, target)));
     }
     static int[] binarySearch(int[][] matrix , int target , int row , int cStart , int cEnd){
@@ -34,7 +33,7 @@ public class SortedArray {
         int rows = matrix.length;
         int cols = matrix[0].length;
 
-        if(rows==0){
+        if(rows==1){
             return binarySearch(matrix,target,0,0,cols -1);
         }
 
