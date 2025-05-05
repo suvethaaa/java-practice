@@ -16,6 +16,8 @@ public class NumberExampleRecursion {
             return;
         }
         System.out.println(n);
+        //this is called the tail recursion
+        //this is the last function call
         numbers(n+1);
     }
 }
