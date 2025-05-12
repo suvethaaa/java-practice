@@ -3,7 +3,7 @@ package com.BinarySearch;
 public class Ceiling {
     public static void main(String[] args) {
         int[] nums = {2,3,5,9,14,16,18};
-        int target = 4;
+        int target = 19;
         System.out.println(ceilingBS(nums,target));
     }
 
