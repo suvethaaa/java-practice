@@ -4,7 +4,7 @@
 //see if you can break the problem into smaller problems
 //here the f(n) = f(n-1)+f(n-2) then f(n-1)=f(n-2)+f(n-3) and so on and that is known as recurrence relation
 //when you write the formula for recursion then that is known as recurrence relation
-//the base condition is represented by answers we already have
+//the base condition is represented by answers we already
 
 package com.Recursion;
 

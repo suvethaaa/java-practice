@@ -1,4 +1,4 @@
-package com.LeetCodeProblems;
+package com.Problems;
 
 import java.util.*;
 class MinOfkElements {

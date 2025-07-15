@@ -1,4 +1,4 @@
-package com.LeetCodeProblems;
+package com.Problems;
 
 public class RotatedDuplicate {
     public static void main(String[] args) {
