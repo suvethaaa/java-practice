@@ -24,3 +24,14 @@ public class Binarysearch {
         return -1;
     }
 }
+//boolean consist(Arraylist<Integer> arr , int num){
+//        boolean ans = true;
+//
+//        for(int i = 0 ; i < arr.size() ; i++){
+//            if(arr[i] == num){
+//                ans = false;
+//            }
+//        }
+//
+//        return ans;
+//    }
