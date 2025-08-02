@@ -4,7 +4,8 @@ import java.util.ArrayList;
 
 public class permutationsList {
     public static void main(String[] args) {
-
+        ArrayList<String> ans = PermutationsList("","abc");
+        System.out.println(ans);
     }
 
     static ArrayList<String> PermutationsList(String p , String up){
