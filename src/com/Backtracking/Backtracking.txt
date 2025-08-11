@@ -1,0 +1,9 @@
+problem we might face :
+
+consider the maze problem now we can go in all four direction and also diagonal
+
+if we run the recursion as we did in the previous program it will end up as stack overflow since we come to the
+same point again and again
+
+how to solve ? if you do not want to visit the cell already then do not allow to visit the cell, so mark the cells
+as false so it does not go there
