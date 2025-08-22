@@ -19,15 +19,18 @@ public class AllPathRestrictions {
             return;
         }
 
+
         if(!maze[r][c]){
             return;
         }
+
+        maze[r][c] = false;
 
         if(r < maze.length-1){
             allPathRestrictions(p + 'D' , maze , r +1 , c);
         }
 
-        if(c < maze.length-1){
+        if(c < maze[0].length-1){
             allPathRestrictions(p + 'R' , maze , r , c+1);
         }
 
@@ -36,7 +39,9 @@ public class AllPathRestrictions {
         }
 
         if(c > 0){
-            allPathRestrictions(p + 'D' , maze , r , c -1 );
+            allPathRestrictions(p + 'L' , maze , r , c -1 );
         }
+
+        maze[r][c] = true;
     }
 }
