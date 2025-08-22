@@ -1,0 +1,16 @@
+Given an n and we have to place n queens in the n x n chess board
+
+how do we know it is recursion ?
+
+    the problem is split into small problems by finding place for each queen from the starting row ,
+    and further placing another by checking whether the previously placed queens attacking it and further.
+
+how does it come under backtracking ? (changing the changes done via a recursion call while its returning)
+
+    when there is no possible way to place a queen so there would be a wrong placement of queens in the previous
+    steps hence backtrack by removing the lastly placed queens and checking for another possibilities  that all
+    queens will be placed .
+    note : consider every single possibility.
+
+how do we do ?
+
