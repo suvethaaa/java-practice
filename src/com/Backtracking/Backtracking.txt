@@ -7,3 +7,10 @@ same point again and again
 
 how to solve ? if you do not want to visit the cell already then do not allow to visit the cell, so mark the cells
 as false so it does not go there
+
+so when a single recursion call or the stacked calls occurs it changes the boolean array hence to check the
+another coordinates path  need to change the array as it is initialized in the beginning
+
+when you go outside the recursion calls the changes made by those recursion calls should be removed or not available
+
+change the changes you made previously
