@@ -12,5 +12,6 @@ how does it come under backtracking ? (changing the changes done via a recursion
     queens will be placed .
     note : consider every single possibility.
 
-how do we do ?
+how do we do ?(refer the code)
+
 
