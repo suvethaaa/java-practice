@@ -15,6 +15,7 @@ public class Insertion {
                 if(arr[j]<arr[j-1]){
                     swap(arr, j , j-1);
                 }else{      //why the else statement because it prevents the code from running unnecessary comparisons
+                    //because the LHS is already sorted
                     break;
                 }
             }
