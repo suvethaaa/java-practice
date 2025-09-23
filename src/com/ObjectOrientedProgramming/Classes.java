@@ -1,8 +1,6 @@
 package com.ObjectOrientedProgramming;
 
-import java.util.Arrays;
-
-public class Teacher {
+public class Classes {
     public static void main(String[] args) {
 
 //        Students[] list = new Students[5];
